@@ -1,0 +1,28 @@
+:root {
+  --base: yellow;
+  --spacing: 5px;
+  --blur: 10px;
+}
+
+body {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+.controls {
+  margin: 0;
+  padding-top: 1rem;
+  font-size: 20px;
+  padding-bottom: 3rem;
+}
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  width: auto;
+  height: 300px;
+}
+.h1 {
+  color: var(--base);
+}
